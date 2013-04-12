@@ -1,0 +1,19 @@
+store:
+  title: Andrew's Stackato Applications
+  contact: Somebody's Name <support@example.com>
+  src-url: git://github.com/AndrewPodner/
+  defaults:
+    id: $id-from-name
+    mem: 128
+    src: $id.git
+    icon: $id.png
+    commit: master
+    info: $github-url#readme
+
+apps:
+- name: Overloading Crud
+  desc: Demo of how to use PHP Overloading
+  runtime: PHP
+  id: crud
+  src: overloadingCrud.git
+  tags: CRUD, overloading, PHP
